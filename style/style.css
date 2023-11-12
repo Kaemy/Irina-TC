@@ -88,6 +88,8 @@ body {
   /* Inventaire */
   /* Obtention / Utilisation / CEIR */
   /* FIN DE LA PARTIE CONCERNANT L'INVENTAIRE */
+  /* PARTIE SBIRE */
+  /* FIN PARTIE SBIRE */
 }
 .content-tc .perso-ident {
   justify-content: center;
@@ -160,26 +162,6 @@ body {
   font-size: 14px;
 }
 .content-tc .blocdescri .descri-corps .perso-ava {
-  text-align: right;
-  font-size: 9px;
-  margin-top: -5px;
-}
-.content-tc .blocdescri .descri-mission {
-  flex: 1 1 auto;
-  height: 226px;
-  overflow: auto;
-  padding: 5px 10px 5px 5px;
-  font-size: 11px;
-  text-align: justify;
-  border-radius: 10px;
-  border: 1px solid rgb(0, 0, 0);
-}
-.content-tc .blocdescri .descri-mission .titre {
-  color: darkblue;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-.content-tc .blocdescri .descri-mission .perso-ava {
   text-align: right;
   font-size: 9px;
   margin-top: -5px;
@@ -544,4 +526,31 @@ body {
 }
 .content-tc .space_o {
   padding-left: 5px;
+}
+.content-tc .pkmnSbire {
+  margin: 15px;
+}
+.content-tc .descri-mission {
+  flex: 1 1 auto;
+  height: 226px;
+  overflow: auto;
+  padding: 5px 10px 5px 5px;
+  font-size: 11px;
+  text-align: justify;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.content-tc .descri-mission .titre {
+  color: rgb(25, 25, 112);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.content-tc .descri-mission .validate {
+  color: rgb(0, 179, 41);
+}
+.content-tc .descri-mission .fail {
+  color: rgb(138, 0, 0);
+}
+.content-tc .descri-mission .encours {
+  color: rgb(1, 122, 131);
 }/*# sourceMappingURL=style.css.map */

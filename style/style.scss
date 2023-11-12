@@ -3,6 +3,9 @@ $color-main : rgb(25, 25, 112);
 $color-black: rgb(0, 0, 0);
 $color-white: rgb(255, 255, 255);
 $color-degrade: linear-gradient(90deg, rgb(0, 0, 0),rgb(30, 30, 134));
+$color-validate: rgb(0, 179, 41);
+$color-fail: rgb(138, 0, 0);
+$color-progress: rgb(1, 122, 131);
 
 
 
@@ -178,29 +181,6 @@ $width-sidebar: 135px;
         .descri-corps {
             flex: 1 1 auto;
             height: 105px;
-            overflow: auto;
-            padding: 5px 10px 5px 5px;
-            font-size:11px;
-            text-align: justify;
-            border-radius: 10px;
-            border: 1px solid $color-black;
-
-            .titre {
-                color: darkblue;
-                text-transform: uppercase;
-                font-size: 14px;
-            }
-
-            .perso-ava {
-                text-align:right;
-                font-size:9px;
-                margin-top: -5px;
-            }
-        }
-
-        .descri-mission {
-            flex: 1 1 auto;
-            height: 226px;
             overflow: auto;
             padding: 5px 10px 5px 5px;
             font-size:11px;
@@ -607,4 +587,39 @@ $width-sidebar: 135px;
         }
 
     /* FIN DE LA PARTIE CONCERNANT L'INVENTAIRE */
+
+    /* PARTIE SBIRE */
+    .pkmnSbire {
+        margin: 15px;
+    }
+
+    .descri-mission {
+        flex: 1 1 auto;
+        height: 226px;
+        overflow: auto;
+        padding: 5px 10px 5px 5px;
+        font-size:11px;
+        text-align: justify;
+        border-radius: 10px;
+        border: 1px solid $color-black;
+
+        .titre {
+            color: $color-main;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        .validate {
+            color: $color-validate;
+        }
+
+        .fail {
+            color: $color-fail;
+        }
+
+        .encours {
+            color: $color-progress;
+        }
+    }
+    /* FIN PARTIE SBIRE */
 }
