@@ -10,7 +10,7 @@ body {
     background-color: transparent;
     font-size: 14px;
     max-width: 596px;
-    //border: 1px solid red;
+    border: 1px solid red;
     min-height: 550px;
 }
 
@@ -139,7 +139,7 @@ $width-sidebar: 135px;
 
         .sprite {
             border-radius: 5px;
-            border: solid 1px black;
+            border: solid 1px $color-black;
             width: 100px;
             justify-content: center;
             background-color: white;
@@ -161,7 +161,7 @@ $width-sidebar: 135px;
             width: 300px;
             overflow: auto;
             border-radius: 5px;
-            border: solid 1px black;
+            border: solid 1px $color-black;
             padding: 5px 5px;
             font-size: 11px;
             background-color: white;
@@ -187,7 +187,7 @@ $width-sidebar: 135px;
             text-align: justify;
             background-color: white;
             border-radius: 10px;
-            border: 1px solid black;
+            border: 1px solid $color-black;
 
             .titre {
                 color: darkblue;
@@ -212,7 +212,7 @@ $width-sidebar: 135px;
         .infos {
             width: 185px;
             border-radius: 10px;
-            border: 1px solid black;
+            border: 1px solid $color-black;
             padding: 5px;
             font-size:11px;
             text-align: justify;
@@ -227,7 +227,7 @@ $width-sidebar: 135px;
             hr {
                 margin-top: 8px;
                 margin-bottom: 8px;
-                border-color: darkblue;
+                border-color: $color-main;
             }
 
             p {
@@ -255,7 +255,7 @@ $width-sidebar: 135px;
 
             img{
                 border-radius: 10px;
-                border: 1px solid black;
+                border: 1px solid $color-black;
             }
         }
     }
@@ -273,7 +273,7 @@ $width-sidebar: 135px;
             margin-top: 2px;
 
             &.active {
-                border-bottom: solid 2px #2890ac;
+                border-bottom: solid 2px $color-main;
                 background-color: transparent;
                 border-radius: 15px;
             }
@@ -283,7 +283,7 @@ $width-sidebar: 135px;
             justify-content: center;
             height: 80px;
             overflow: auto;
-            border: solid 1px lightgrey;
+            border: solid 1px $color-black;
             border-radius: 5px;
             padding: 5px 0;
             background-color: white;
@@ -319,14 +319,14 @@ $width-sidebar: 135px;
                     height: 17px;
                     width: 19px;
                     margin: 2px 0 2px 10px;
-                    border: solid 1px white;
+                    border: solid 1px $color-black;
                     border-radius: 10px;
                 }
             }
 
             .sprite {
                 border-radius: 5px;
-                border: solid 1px lightgrey;
+                border: solid 1px $color-black;
                 width: 102px;
                 display: flex;
                 justify-content: center;
@@ -341,7 +341,7 @@ $width-sidebar: 135px;
                 grid-column: 2/5;
                 grid-row: 2;
                 border-radius: 5px;
-                border: solid 1px lightgrey;
+                border: solid 1px $color-black;
                 padding: 6px 5px;
                 font-size: 11px;
                 background-color: white;
@@ -355,7 +355,7 @@ $width-sidebar: 135px;
                 grid-column: 1/3;
                 grid-row: 3;
                 border-radius: 5px;
-                border: solid 1px lightgrey;
+                border: solid 1px $color-black;
                 font-size: 10px;
                 height: 160px;
                 overflow: auto;
@@ -371,7 +371,7 @@ $width-sidebar: 135px;
                 }
 
                 span {
-                    color: #2890ac;
+                    color: $color-main;
                 }
             }
 
@@ -379,7 +379,7 @@ $width-sidebar: 135px;
                 grid-column: 3/5;
                 grid-row: 3;
                 border-radius: 5px;
-                border: solid 1px lightgrey;
+                border: solid 1px $color-black;
                 padding: 0 5px;
                 height: 160px;
                 overflow: auto;
@@ -387,7 +387,7 @@ $width-sidebar: 135px;
 
                 div {
                     &:first-of-type, &:last-of-type {
-                        color: #63b3d9;
+                        color: $color-main;
                         font-size: 11px;
                         text-transform: uppercase;
                         text-align:center;
@@ -425,13 +425,13 @@ $width-sidebar: 135px;
                 grid-column: 1/5;
                 grid-row: 4;
                 border-radius: 5px;
-                border: solid 1px lightgrey;
+                border: solid 1px $color-black;
                 height: 80px;
                 padding: 8px 15px;
                 overflow: auto;
                 letter-spacing: 6px;
                 background-color: white;
-                color: #63b3d9;
+                color: $color-main;
                 font-size: 18px;
                 text-transform: uppercase;
 
@@ -450,23 +450,23 @@ $width-sidebar: 135px;
     /* Inventaire */
     .Inventaire {
         clear:both;
-        width:445px; 
-        margin: 15px auto;
+        width:440px;
+        background-clip: border-box;
 
         input[type=radio] {
             display:none;
 
             &:checked + label {
-                background-image: linear-gradient(90deg, rgb(43, 77, 130),rgb(40, 144, 172));
+                background-image: $color-degrade;
                 color: white;
             }
         }
 
         label {
-            width:56px; 
+            width:53px; 
             height:20px;
             padding: 1px 0;
-            border: 1px solid lightgrey;
+            border: 1px solid $color-black;
             color: grey;
             cursor: pointer;
             text-align:center;
@@ -474,11 +474,10 @@ $width-sidebar: 135px;
             font-size:14px;
             line-height: 15px;
             border-radius: 5px;
-            margin-left:2px;
             background-color: white;
 
             &:first-of-type {
-                margin-left:4px;
+                margin-left:25px;
             }
         }
 
@@ -486,10 +485,10 @@ $width-sidebar: 135px;
 
     .contenu-sac {
         display: none;
-        width: 435px; 
-        height: 150px;
+        width: 410px; 
+        height: 200px;
         padding: 5px;
-        border: 1px solid lightgrey;
+        border: 1px solid $color-black;
         border-radius : 5px;
         color: black;
         overflow: auto;
@@ -498,6 +497,7 @@ $width-sidebar: 135px;
         font-size:10px;
         letter-spacing: 3px;
         background-color: white;
+        margin: 0 18px;
 
         img {
             width: 25px;
@@ -507,7 +507,7 @@ $width-sidebar: 135px;
 
         a {
             text-decoration: none;
-            color: steelblue;
+            color: $color-main;
         }
 
     }
@@ -527,22 +527,22 @@ $width-sidebar: 135px;
         .Obtention {
             clear:both;
             width:445px; 
-            margin: 15px auto 0 auto;
+            margin: 20px auto 0 auto;
     
             input[type=radio] {
                 display:none;
     
                 &:checked + label {
-                    background-image: linear-gradient(90deg, rgb(43, 77, 130),rgb(40, 144, 172));
+                    background-image: $color-degrade;
                     color: white;
                 }
             }
 
             label {
-                width:104px; 
+                width:95px; 
                 height:20px;
                 padding: 1px 0;
-                border: 1px solid lightgrey;
+                border: 1px solid $color-black;
                 color: grey;
                 cursor: pointer;
                 text-align: center;
@@ -552,16 +552,20 @@ $width-sidebar: 135px;
                 border-radius: 5px;
                 margin-left:2px;
                 background-color: white;
+
+                &:first-of-type {
+                    margin-left:25px;
+                }
             }
     
         }
 
         .contenu-obtention {
             display: none;
-            width: 435px; 
-            height: 180px;
+            width: 410px; 
+            height: 200px;
             padding: 5px;
-            border: 1px solid lightgrey;
+            border: 1px solid $color-black;
             border-radius : 5px;
             color: black;
             overflow: auto;
@@ -570,6 +574,7 @@ $width-sidebar: 135px;
             font-size:10px;
             letter-spacing: 3px;
             background-color: white;
+            margin: 0 18px;
     
             img {
                 width: 25px;
@@ -579,7 +584,7 @@ $width-sidebar: 135px;
         }
         .contenu-obtention a {
         text-decoration: none;
-        color: steelblue;
+        color: $color-main;
         }
     
         #obt:checked ~ #c_obt, 
