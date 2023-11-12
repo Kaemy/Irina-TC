@@ -120,7 +120,6 @@ body {
   border: solid 1px rgb(0, 0, 0);
   width: 100px;
   justify-content: center;
-  background-color: white;
 }
 .content-tc .perso .sprite:hover {
   transition: 2s;
@@ -136,7 +135,6 @@ body {
   border: solid 1px rgb(0, 0, 0);
   padding: 5px 5px;
   font-size: 11px;
-  background-color: white;
 }
 .content-tc .perso .perso-infos span {
   color: #2890ac;
@@ -154,7 +152,6 @@ body {
   padding: 5px 10px 5px 5px;
   font-size: 11px;
   text-align: justify;
-  background-color: white;
   border-radius: 10px;
   border: 1px solid rgb(0, 0, 0);
 }
@@ -164,6 +161,26 @@ body {
   font-size: 14px;
 }
 .content-tc .blocdescri .descri-corps .perso-ava {
+  text-align: right;
+  font-size: 9px;
+  margin-top: -5px;
+}
+.content-tc .blocdescri .descri-mission {
+  flex: 1 1 auto;
+  height: 226px;
+  overflow: auto;
+  padding: 5px 10px 5px 5px;
+  font-size: 11px;
+  text-align: justify;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.content-tc .blocdescri .descri-mission .titre {
+  color: darkblue;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.content-tc .blocdescri .descri-mission .perso-ava {
   text-align: right;
   font-size: 9px;
   margin-top: -5px;
@@ -183,7 +200,6 @@ body {
   text-align: justify;
   height: 122px;
   overflow: auto;
-  background-color: white;
 }
 .content-tc .bloc-card .infos a {
   margin-left: 12px;
@@ -279,7 +295,6 @@ body {
   justify-content: center;
   grid-column: 1;
   grid-row: 2;
-  background-color: white;
 }
 .content-tc .content-pkmn .grid-pkmn .pkmn-infos {
   height: 102px;
@@ -290,7 +305,6 @@ body {
   border: solid 1px rgb(0, 0, 0);
   padding: 6px 5px;
   font-size: 11px;
-  background-color: white;
 }
 .content-tc .content-pkmn .grid-pkmn .pkmn-infos span {
   color: #2890ac;
@@ -305,7 +319,6 @@ body {
   overflow: auto;
   letter-spacing: 1px;
   padding: 0 0 2px 6px;
-  background-color: white;
 }
 .content-tc .content-pkmn .grid-pkmn .stats-pkmn div {
   color: #63b3d9;
@@ -324,7 +337,6 @@ body {
   padding: 0 5px;
   height: 160px;
   overflow: auto;
-  background-color: white;
 }
 .content-tc .content-pkmn .grid-pkmn .atk-pkmn div:first-of-type, .content-tc .content-pkmn .grid-pkmn .atk-pkmn div:last-of-type {
   color: rgb(25, 25, 112);
@@ -401,7 +413,6 @@ body {
   padding: 8px 15px;
   overflow: auto;
   letter-spacing: 6px;
-  background-color: white;
   color: rgb(25, 25, 112);
   font-size: 18px;
   text-transform: uppercase;
@@ -452,7 +463,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 10px;
   letter-spacing: 3px;
-  background-color: white;
   margin: 0 18px;
 }
 .content-tc .contenu-sac img {
@@ -519,7 +529,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 10px;
   letter-spacing: 3px;
-  background-color: white;
   margin: 0 18px;
 }
 .content-tc .contenu-obtention img {
