@@ -18,18 +18,18 @@ body {
 }
 
 /* PARTIE SIDEBAR */
-$width-sidebar: 135px;
+$width-sidebar: 140px;
 
 #Irina-sidebar {
     width: $width-sidebar;
-    height: 550px;
+    height: 600px;
     left: 0.5%;
     top: 1.5%;
     position: fixed;
     border-radius: 10%;
 
     img {
-        height: 200px;
+        height: 210px;
         width: $width-sidebar;
         border-radius: 10%;
         border: solid 2px $color-black;
@@ -66,23 +66,27 @@ $width-sidebar: 135px;
             }
 
             span {
-                font-size:11px;
+                font-size:12px;
                 text-transform: uppercase;
 
             }
 
             .pills-link {
                 display: block;
-                width: 135px;
-                padding: 4px 10px;
+                width: $width-sidebar;
+                padding: 3px 10px;
                 border: solid 1px $color-black;
-                border-radius: 20px;
-                margin: 3.4% auto;
+                border-radius: 10px;
+                margin: 0 auto 15px;
             }
 
             .active {
                 color: #fff !important;
                 background-color: $color-main;
+
+                &.sbire {
+                    background-color: $color-main;
+                }
             }
 
             .fas, .far {
@@ -98,7 +102,15 @@ $width-sidebar: 135px;
             .fa-hiking {
                 margin-right:10px;
             }
-            
+
+            .sbire {
+                background-color: black;
+                color: white;
+
+                &:hover {
+                    color: white;
+                }
+            }
         }
     }
 }
@@ -107,7 +119,7 @@ $width-sidebar: 135px;
     position: absolute;
     left: 150px;
     width: 455px;
-    padding: 8px 5px 5px 5px;
+    margin: 10px auto 0;
 
  /* FIN DE LA PARTIE GENERALE DES CONTENUS */
 
@@ -180,7 +192,7 @@ $width-sidebar: 135px;
 
         .descri-corps {
             flex: 1 1 auto;
-            height: 105px;
+            height: 143px;
             overflow: auto;
             padding: 5px 10px 5px 5px;
             font-size:11px;
@@ -205,7 +217,7 @@ $width-sidebar: 135px;
     .bloc-card {
         display: flex;
         width: 420px;
-        margin: 5px auto 15px;
+        margin: 0 auto 15px;
         justify-content: space-between;
 
         .infos {
@@ -263,7 +275,7 @@ $width-sidebar: 135px;
 
     .content-pkmn {
         width: 420px;
-        margin: 10px auto;
+        margin: 2px auto;
 
         .nav-link {
             display: block;
@@ -279,12 +291,17 @@ $width-sidebar: 135px;
 
         .nav {
             justify-content: center;
-            height: 80px;
+            height: 135px;
             overflow: auto;
             border: solid 1px $color-black;
             border-radius: 5px;
             padding: 5px 0;
+
+            &.pkmn-sbire {
+                height: 80px;
+            }
         }
+
         .grid-pkmn {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -351,11 +368,12 @@ $width-sidebar: 135px;
                 grid-row: 3;
                 border-radius: 5px;
                 border: solid 1px $color-black;
-                font-size: 10px;
-                height: 160px;
+                font-size: 11px;
+                height: 180px;
                 overflow: auto;
                 letter-spacing: 1px;
                 padding: 0 0 2px 6px;
+                line-height: 17px;
 
                 div {
                     color: #63b3d9;
@@ -375,7 +393,7 @@ $width-sidebar: 135px;
                 border-radius: 5px;
                 border: solid 1px $color-black;
                 padding: 0 5px;
-                height: 160px;
+                height: 180px;
                 overflow: auto;
 
                 div {
@@ -419,13 +437,14 @@ $width-sidebar: 135px;
                 grid-row: 4;
                 border-radius: 5px;
                 border: solid 1px $color-black;
-                height: 80px;
+                height: 84px;
                 padding: 8px 15px;
                 overflow: auto;
                 letter-spacing: 6px;
                 color: $color-main;
                 font-size: 18px;
                 text-transform: uppercase;
+                line-height: 30px;
 
                 img {
                     margin-left: 5px;
@@ -590,12 +609,12 @@ $width-sidebar: 135px;
 
     /* PARTIE SBIRE */
     .pkmnSbire {
-        margin: 15px;
+        margin: 10px;
     }
 
     .descri-mission {
         flex: 1 1 auto;
-        height: 226px;
+        height: 304px;
         overflow: auto;
         padding: 5px 10px 5px 5px;
         font-size:11px;

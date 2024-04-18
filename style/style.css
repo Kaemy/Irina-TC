@@ -8,16 +8,16 @@ body {
 
 /* PARTIE SIDEBAR */
 #Irina-sidebar {
-  width: 135px;
-  height: 550px;
+  width: 140px;
+  height: 600px;
   left: 0.5%;
   top: 1.5%;
   position: fixed;
   border-radius: 10%;
 }
 #Irina-sidebar img {
-  height: 200px;
-  width: 135px;
+  height: 210px;
+  width: 140px;
   border-radius: 10%;
   border: solid 2px rgb(0, 0, 0);
   margin-bottom: 15px; /* Safari 3.1 to 6.0 */
@@ -34,7 +34,7 @@ body {
   flex-wrap: wrap;
 }
 #Irina-sidebar .navigation .blc-onglets {
-  width: 135px;
+  width: 140px;
 }
 #Irina-sidebar .navigation .blc-onglets a {
   color: rgb(25, 25, 112);
@@ -44,19 +44,22 @@ body {
   color: rgb(0, 0, 0);
 }
 #Irina-sidebar .navigation .blc-onglets span {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 #Irina-sidebar .navigation .blc-onglets .pills-link {
   display: block;
-  width: 135px;
-  padding: 4px 10px;
+  width: 140px;
+  padding: 3px 10px;
   border: solid 1px rgb(0, 0, 0);
-  border-radius: 20px;
-  margin: 3.4% auto;
+  border-radius: 10px;
+  margin: 0 auto 15px;
 }
 #Irina-sidebar .navigation .blc-onglets .active {
   color: #fff !important;
+  background-color: rgb(25, 25, 112);
+}
+#Irina-sidebar .navigation .blc-onglets .active.sbire {
   background-color: rgb(25, 25, 112);
 }
 #Irina-sidebar .navigation .blc-onglets .fas, #Irina-sidebar .navigation .blc-onglets .far {
@@ -72,13 +75,20 @@ body {
 #Irina-sidebar .navigation .blc-onglets .fa-hiking {
   margin-right: 10px;
 }
+#Irina-sidebar .navigation .blc-onglets .sbire {
+  background-color: black;
+  color: white;
+}
+#Irina-sidebar .navigation .blc-onglets .sbire:hover {
+  color: white;
+}
 
 /* DEBUT GENERAL DES CONTENUS */
 .content-tc {
   position: absolute;
   left: 150px;
   width: 455px;
-  padding: 8px 5px 5px 5px;
+  margin: 10px auto 0;
   /* FIN DE LA PARTIE GENERALE DES CONTENUS */
   /* DEBUT DE LA PARTIE CONCERNANT LES INFORMATIONS GENERALES SUR LE PERSONNAGE */
   /* FIN DE LA PARTIE CONCERNANT LES INFOS GENERALES SUR LE PERSONNAGE */
@@ -148,7 +158,7 @@ body {
 }
 .content-tc .blocdescri .descri-corps {
   flex: 1 1 auto;
-  height: 105px;
+  height: 143px;
   overflow: auto;
   padding: 5px 10px 5px 5px;
   font-size: 11px;
@@ -169,7 +179,7 @@ body {
 .content-tc .bloc-card {
   display: flex;
   width: 420px;
-  margin: 5px auto 15px;
+  margin: 0 auto 15px;
   justify-content: space-between;
 }
 .content-tc .bloc-card .infos {
@@ -214,7 +224,7 @@ body {
 }
 .content-tc .content-pkmn {
   width: 420px;
-  margin: 10px auto;
+  margin: 2px auto;
 }
 .content-tc .content-pkmn .nav-link {
   display: block;
@@ -228,11 +238,14 @@ body {
 }
 .content-tc .content-pkmn .nav {
   justify-content: center;
-  height: 80px;
+  height: 135px;
   overflow: auto;
   border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
   padding: 5px 0;
+}
+.content-tc .content-pkmn .nav.pkmn-sbire {
+  height: 80px;
 }
 .content-tc .content-pkmn .grid-pkmn {
   display: grid;
@@ -294,11 +307,12 @@ body {
   grid-row: 3;
   border-radius: 5px;
   border: solid 1px rgb(0, 0, 0);
-  font-size: 10px;
-  height: 160px;
+  font-size: 11px;
+  height: 180px;
   overflow: auto;
   letter-spacing: 1px;
   padding: 0 0 2px 6px;
+  line-height: 17px;
 }
 .content-tc .content-pkmn .grid-pkmn .stats-pkmn div {
   color: #63b3d9;
@@ -315,7 +329,7 @@ body {
   border-radius: 5px;
   border: solid 1px rgb(0, 0, 0);
   padding: 0 5px;
-  height: 160px;
+  height: 180px;
   overflow: auto;
 }
 .content-tc .content-pkmn .grid-pkmn .atk-pkmn div:first-of-type, .content-tc .content-pkmn .grid-pkmn .atk-pkmn div:last-of-type {
@@ -389,13 +403,14 @@ body {
   grid-row: 4;
   border-radius: 5px;
   border: solid 1px rgb(0, 0, 0);
-  height: 80px;
+  height: 84px;
   padding: 8px 15px;
   overflow: auto;
   letter-spacing: 6px;
   color: rgb(25, 25, 112);
   font-size: 18px;
   text-transform: uppercase;
+  line-height: 30px;
 }
 .content-tc .content-pkmn .grid-pkmn .rela-pkmn img {
   margin-left: 5px;
@@ -528,11 +543,11 @@ body {
   padding-left: 5px;
 }
 .content-tc .pkmnSbire {
-  margin: 15px;
+  margin: 10px;
 }
 .content-tc .descri-mission {
   flex: 1 1 auto;
-  height: 226px;
+  height: 304px;
   overflow: auto;
   padding: 5px 10px 5px 5px;
   font-size: 11px;
