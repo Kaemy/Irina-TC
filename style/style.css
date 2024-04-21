@@ -466,7 +466,8 @@ body {
 }
 .content-tc .content-pkmn .grid-pkmn .rela-pkmn img, .content-tc .content-box .grid-pkmn .rela-pkmn img {
   margin-left: 5px;
-  margin-top: -2px;
+  margin-top: -5px;
+  border-radius: 5px;
 }
 .content-tc .Inventaire {
   clear: both;
