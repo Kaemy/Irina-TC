@@ -53,7 +53,7 @@ body {
   padding: 3px 10px;
   border: solid 1px rgb(0, 0, 0);
   border-radius: 10px;
-  margin: 0 auto 15px;
+  margin: 0 auto 10px;
 }
 #Irina-sidebar .navigation .blc-onglets .active {
   color: #fff !important;
@@ -125,7 +125,7 @@ body {
 }
 .content-tc .perso {
   display: flex;
-  width: 415px;
+  width: 420px;
   margin: 12px auto;
   justify-content: space-between;
   padding: 2px 0 1px;
@@ -155,14 +155,14 @@ body {
   color: #2890ac;
 }
 .content-tc .blocdescri {
-  width: 415px;
+  width: 420px;
   margin: 15px auto;
   background-clip: border-box;
   padding: 2px 0 1px;
 }
 .content-tc .blocdescri .descri-corps {
   flex: 1 1 auto;
-  height: 143px;
+  height: 124px;
   overflow: auto;
   padding: 5px 10px 5px 5px;
   font-size: 11px;
@@ -182,7 +182,7 @@ body {
 }
 .content-tc .blocdescri .descri-rp {
   flex: 1 1 auto;
-  height: 549px;
+  height: 511px;
   overflow: auto;
   padding: 5px 10px 5px 5px;
   font-size: 11px;
@@ -194,11 +194,6 @@ body {
   color: darkblue;
   text-transform: uppercase;
   font-size: 14px;
-}
-.content-tc .blocdescri .descri-rp .perso-ava {
-  text-align: right;
-  font-size: 9px;
-  margin-top: -5px;
 }
 .content-tc .blocdescri .descri-rp span {
   color: rgb(30, 30, 134);
@@ -241,9 +236,6 @@ body {
   height: 122px;
   overflow: auto;
 }
-.content-tc .bloc-card .infos a {
-  margin-left: 12px;
-}
 .content-tc .bloc-card .infos hr {
   margin-top: 8px;
   margin-bottom: 8px;
@@ -259,6 +251,7 @@ body {
 }
 .content-tc .bloc-card .infos a {
   color: darkblue;
+  margin-left: 12px;
 }
 .content-tc .bloc-card .infos a:hover, .content-tc .bloc-card .infos a:focus {
   text-decoration: none;
@@ -287,14 +280,14 @@ body {
 }
 .content-tc .content-pkmn .nav, .content-tc .content-box .nav {
   justify-content: center;
-  height: 135px;
+  height: 115px;
   overflow: auto;
   border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
   padding: 5px 0;
 }
 .content-tc .content-pkmn .nav.pkmn-sbire, .content-tc .content-box .nav.pkmn-sbire {
-  height: 80px;
+  padding: 20px 0;
 }
 .content-tc .content-pkmn .box, .content-tc .content-box .box {
   height: 50px;
@@ -455,14 +448,14 @@ body {
   grid-row: 4;
   border-radius: 5px;
   border: solid 1px rgb(0, 0, 0);
-  height: 84px;
-  padding: 8px 15px;
+  height: 65px;
+  padding: 5px 15px;
   overflow: auto;
   letter-spacing: 6px;
   color: rgb(25, 25, 112);
   font-size: 18px;
   text-transform: uppercase;
-  line-height: 30px;
+  line-height: 26px;
 }
 .content-tc .content-pkmn .grid-pkmn .rela-pkmn img, .content-tc .content-box .grid-pkmn .rela-pkmn img {
   margin-left: 5px;
@@ -499,8 +492,8 @@ body {
 }
 .content-tc .contenu-sac {
   display: none;
-  width: 415px;
-  height: 150px;
+  width: 420px;
+  height: 121px;
   padding: 5px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
@@ -563,8 +556,8 @@ body {
 }
 .content-tc .contenu-utilisation {
   display: none;
-  width: 415px;
-  height: 295px;
+  width: 420px;
+  height: 286px;
   padding: 5px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
@@ -600,7 +593,7 @@ body {
 }
 .content-tc .descri-mission {
   flex: 1 1 auto;
-  height: 304px;
+  height: 266px;
   overflow: auto;
   padding: 5px 10px 5px 5px;
   font-size: 11px;
@@ -641,14 +634,14 @@ body {
   margin: 11px auto 11px;
 }
 .content-tc .wishlist {
-  height: 120px;
+  height: 110px;
   overflow: auto;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   font-size: 11px;
 }
 .content-tc .couveuse {
-  height: 140px;
+  height: 112px;
   overflow: auto;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -767,7 +760,7 @@ body {
 }
 .content-tc .content-rela .descri-duo {
   flex: 1 1 auto;
-  height: 181px;
+  height: 143px;
   overflow: auto;
   padding: 5px 10px 5px 5px;
   font-size: 11px;
